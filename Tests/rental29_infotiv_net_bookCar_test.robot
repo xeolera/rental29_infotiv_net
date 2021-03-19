@@ -12,7 +12,7 @@ ${URL1}             http://rental29.infotiv.net/
 
 *** Test Cases ***
 User can login and navigate to booking a car.
-[Tags] VG_test
+    [Tags]  VG_test
     Given USER accesses the webpage
     And USER is logged in
     And USER navigates to finding car bookings
