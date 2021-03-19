@@ -85,7 +85,7 @@ Verify Mypage Loaded
     Click Element                       id:mypage
     ${LINK_TEXT}                        Get Title
     Should Be Equal                     ${LINK_TEXT}      Mypage
-R
+
 the USER will successfully book a car and add booking to 'mypage'
     Verify Confirm Page
     Verify Mypage Loaded
