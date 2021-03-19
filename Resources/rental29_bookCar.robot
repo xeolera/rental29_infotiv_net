@@ -79,13 +79,13 @@ USER confirms booking
 
 Verify Confirm Page
     Wait Until Page Contains Element    id:questionTextSmall
-    Page Should Contain                 A Audi Q7 is now ready for pickup 2021-03-03
+    Page Should Contain                 A Audi Q7 is now ready for pickup 2021-03-19
 
 Verify Mypage Loaded
     Click Element                       id:mypage
     ${LINK_TEXT}                        Get Title
     Should Be Equal                     ${LINK_TEXT}      Mypage
-
+R
 the USER will successfully book a car and add booking to 'mypage'
     Verify Confirm Page
     Verify Mypage Loaded
